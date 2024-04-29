@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09a21acb.css",
+    "main.js": "/static/js/main.86446a75.js",
+    "static/media/flowers-background-dark.jpg": "/static/media/flowers-background-dark.f490e541d6a7c4b69e6a.jpg",
+    "index.html": "/index.html",
+    "main.09a21acb.css.map": "/static/css/main.09a21acb.css.map",
+    "main.86446a75.js.map": "/static/js/main.86446a75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a21acb.css",
+    "static/js/main.86446a75.js"
+  ]
+}
