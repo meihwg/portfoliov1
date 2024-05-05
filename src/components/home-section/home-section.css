@@ -60,10 +60,10 @@
 .home-banner{
     display: flex;
     flex-direction: column;
-    background-image: url("../../../public/img/snow.jpg");
+    background-image: url("../../../public/img/monet-snow.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 75%;
+    background-position: 0 7%;
     width: 100%;
     justify-content: center;
     align-items: center;

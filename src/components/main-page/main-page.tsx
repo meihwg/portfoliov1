@@ -1,7 +1,8 @@
 import React from 'react';
 import './main-page.css';
-import HomeSection from '../home-section/home-section.tsx';
 import SlideNavbar from '../slide-navbar/slide-navbar.tsx';
+import HomeSection from '../home-section/home-section.tsx';
+import AboutSection from '../about-section/about-section.tsx';
 
 const MainPage: React.FC = () => {
     return (
@@ -11,7 +12,7 @@ const MainPage: React.FC = () => {
                 <HomeSection />
             </section>
             <section id='a-propos'>
-                <h1>slide 2</h1>
+                <AboutSection />
             </section>
             <section id='competences'>
                 <h1>slide 3</h1>
