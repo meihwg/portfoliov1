@@ -17,7 +17,7 @@ const SlideNavbar: React.FC = () => {
                 <li title="mail : belgrandlaureen.tg2@gmail.com"><a href="mailto: belgrandlaureen.tg2@gmail.com"><Icon icon="material-symbols:mail" className="navbar-icon type--B" /></a></li>
                 <li title="tel : 0768735193"><Icon icon="ic:sharp-phone" className="navbar-icon type--C" /></li>
                 <li title="LinkedIn - Laureen Belgrand"><a href="https://www.linkedin.com/in/laureen-belgrand-313652208/" target="_blank" rel="noreferrer" className="navbar-icon type--D"><Icon icon="mdi:linkedin" /></a></li>
-                <li title="Github - Meihwg"><a href="https://www.github.com/meihwg" target="_blank" rel="noreferrer" className="navbar-icon type--E"><Icon icon="ant-design:github-filled" /></a></li>
+                <li title="Github - meihwg"><a href="https://www.github.com/meihwg" target="_blank" rel="noreferrer" className="navbar-icon type--E"><Icon icon="ant-design:github-filled" /></a></li>
             </ul>
         </nav>
     );
