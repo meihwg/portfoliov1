@@ -26,16 +26,15 @@
     top: 0;
     left: 0;
     height: 100vh;
-    background-color: #1b1c1d;
+    background-color: var(--darkgrey-color);
     font-size: 1rem;
     letter-spacing: 7px;
     padding: 0.5rem;
-
-    --grey-color: #7f8c8d;
+    width: 14rem;
 }
 
 ul {
-    padding: 4rem 1rem;
+    padding: 4rem 1rem 1rem 1rem;
     margin: 0;
     list-style-type: none;
 }
@@ -57,8 +56,13 @@ li {
 
 .navbar-icon {
     font-size: 2rem;
-    color: #f0f0f0;
+    color: var(--grey-color);
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar-icon:hover {
+    color: var(--menu-link-active-color);
 }
 
 .menu-hover-fill {

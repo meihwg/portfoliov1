@@ -1,11 +1,14 @@
-*{
+* {
   scroll-behavior: smooth;
 
-  --color-a :  #e4e7a2;
-  --color-b :  #e1b1c5;
-  --color-c :  #a9afdb;
-  --color-d :  #8fcca4;
-  --color-e :  #e3bd94;
+  --color-a: #e4e7a2;
+  --color-b: #e1b1c5;
+  --color-c: #a9afdb;
+  --color-d: #8fcca4;
+  --color-e: #e3bd94;
+
+  --grey-color: #d3d8d8;
+  --darkgrey-color: #2a333b;
 }
 
 body {

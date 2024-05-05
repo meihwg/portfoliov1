@@ -1,24 +1,31 @@
-html, body, section {
-    block-size: 100vh;
-  }
-  
-  html {
-    scroll-snap-type: y mandatory;
-  }
-  
-  section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background: black;
-  }
-  
-  body {
-    margin: 0;
-    font-family: system-ui, sans-serif;
-    font-size: 4rem;
-  }
+html,
+body,
+section {
+  block-size: 100vh;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--darkgrey-color);
+  background: #fff;
+  margin-left: 14rem;
+}
+
+#accueil {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 4rem;
+}

@@ -1,3 +1,19 @@
+.type--A {
+    --back_color: var(--color-b);
+}
+
+.type--B {
+    --back_color: var(--color-c);
+}
+
+.type--C {
+    --back_color: var(--color-d);
+}
+
+.type--D {
+    --back_color: var(--color-e);
+}
+
 .homesection-container{
     display: flex;
     flex-direction: column;
@@ -6,16 +22,58 @@
     justify-content: center;
     align-items: center;
     color: white;
-    background-image: url("../../../public/img/flowers-background-dark.jpg");
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+.home-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-nav li {
+    margin: 0;
+}
+
+.home-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    padding: 0;
+}
+
+.home-icon {
+    font-size: 2rem;
+    color: var(--darkgrey-color);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-icon:hover {
+    color: var(--back_color);
+}
+
+.home-banner{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../../../public/img/snow.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: 2;
+    background-position: 0 75%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkgrey-color)
 }
 
 .buttons-container{
     display: flex;
     flex-direction: row;
-    margin: 100px;
+    margin: 4rem 0 0 0;
 }
 
 .buttons-container a{
@@ -23,15 +81,17 @@
 }
 
 h1{
-    letter-spacing: 5px;
+    letter-spacing: 7px;
     font-weight: 400;
     margin-bottom: 0;
     font-size: 4.5rem;
+    margin: 5rem 0 0 0;
+    padding: 0;
 }
 
 h2{
     font-weight: 200;
     font-size: 2.5rem;
     letter-spacing: 7px;
-    margin: 0;
+    margin: 0 0 4rem 0;
 }
