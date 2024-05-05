@@ -15,14 +15,23 @@
 .buttons-container{
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin: 100px;
 }
 
 .buttons-container a{
-    margin: 0 40px;
+    margin: 0 20px;
 }
 
 h1{
     letter-spacing: 5px;
     font-weight: 400;
+    margin-bottom: 0;
+    font-size: 4.5rem;
+}
+
+h2{
+    font-weight: 200;
+    font-size: 2.5rem;
+    letter-spacing: 7px;
+    margin: 0;
 }

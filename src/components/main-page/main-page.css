@@ -13,16 +13,8 @@ html, body, section {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  section:nth-of-type(even) {
     color: white;
     background: black;
-  }
-  
-  section:nth-of-type(odd) {
-    color: black;
-    background: white;
   }
   
   body {

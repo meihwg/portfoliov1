@@ -1,0 +1,106 @@
+.type--A {
+    --menu-link-active-color: var(--color-a);
+}
+
+.type--B {
+    --menu-link-active-color: var(--color-b);
+}
+
+.type--C {
+    --menu-link-active-color: var(--color-c);
+}
+
+.type--D {
+    --menu-link-active-color: var(--color-d);
+}
+
+.type--E {
+    --menu-link-active-color: var(--color-e);
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #1b1c1d;
+    font-size: 1rem;
+    letter-spacing: 7px;
+    padding: 0.5rem;
+
+    --grey-color: #7f8c8d;
+}
+
+ul {
+    padding: 4rem 1rem;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.navbar-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-icon {
+    font-size: 2rem;
+    color: #f0f0f0;
+    cursor: pointer;
+}
+
+.menu-hover-fill {
+    li {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: -1rem;
+            width: 0.25rem;
+            height: 100%;
+            background: var(--menu-link-active-color);
+            transition: 0.6s;
+        }
+
+        a {
+            --menu-link-color: var(--grey-color);
+            position: relative;
+            background: linear-gradient(var(--menu-link-active-color) 0 100%) left / 0 no-repeat;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            transition: background-size 0.45s 0.04s;
+
+            &::before {
+                position: absolute;
+                content: attr(data-text);
+                z-index: -1;
+                color: var(--menu-link-color);
+            }
+        }
+
+        &:hover {
+            &::before {
+                left: calc(100% + 1rem);
+            }
+
+            a {
+                background-size: 100%;
+            }
+        }
+    }
+}

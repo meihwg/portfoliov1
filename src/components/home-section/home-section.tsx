@@ -7,6 +7,7 @@ const HomeSection: React.FC = () => {
         <>
             <div className="homesection-container">
                 <h1>Laureen Belgrand</h1>
+                <h2>Développeuse Full stack</h2>
                 <div className="buttons-container">
                     <DesignButton buttonLink='#a-propos' buttonText='A propos' buttonType='A' />
                     <DesignButton buttonLink='#competences' buttonText='Compétences' buttonType='B' />
@@ -14,8 +15,6 @@ const HomeSection: React.FC = () => {
                     <DesignButton buttonLink='#parcours' buttonText='Parcours' buttonType='D' />
                 </div>
             </div>
-            <div className="dark-overlay"></div>
-            <div className="background"></div>
         </>
         
     );

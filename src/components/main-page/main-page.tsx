@@ -1,11 +1,13 @@
 import React from 'react';
 import './main-page.css';
 import HomeSection from '../home-section/home-section.tsx';
+import SlideNavbar from '../slide-navbar/slide-navbar.tsx';
 
 const MainPage: React.FC = () => {
     return (
         <>
-            <section>
+            <SlideNavbar />
+            <section id='accueil'>
                 <HomeSection />
             </section>
             <section id='a-propos'>
