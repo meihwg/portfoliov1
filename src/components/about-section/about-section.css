@@ -31,7 +31,6 @@
 .a-propos-texte {
     padding: 0 1rem;
     margin: 1rem 0;
-    font-size: 1rem;
     border: 1.5px solid var(--darkgrey-color);
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.2);

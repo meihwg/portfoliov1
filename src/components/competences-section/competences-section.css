@@ -1,0 +1,39 @@
+.type--A {
+    --bg-color: var(--color-a);
+}
+
+.type--B {
+    --bg-color: var(--color-b);
+}
+
+.type--C {
+    --bg-color: var(--color-c);
+}
+
+.type--D {
+    --bg-color: var(--color-d);
+}
+
+.type--E {
+    --bg-color: var(--color-e);
+}
+
+#competences-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+
+.competences-title {
+    margin: 2rem 0;
+    color: var(--darkgrey-color);
+}
+
+.comp-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
