@@ -1,0 +1,165 @@
+.skill-40 {
+    --skills-percent: 40%;
+}
+
+.skill-50 {
+    --skills-percent: 50%;
+}
+
+.skill-60 {
+    --skills-percent: 60%;
+}
+
+.skill-70 {
+    --skills-percent: 70%;
+}
+
+.skill-80 {
+    --skills-percent: 80%;
+}
+
+.skill-90 {
+    --skills-percent: 90%;
+}
+
+.skill-100 {
+    --skills-percent: 100%;
+}
+
+
+.skills {
+    animation-name: skills;
+}
+
+.skill-img {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-l {
+    border-radius: 10px 0 0 10px;
+}
+
+.img-r {
+    border-radius: 0 10px 10px 0;
+}
+
+.img-a {
+    background-image: url("../../../public/img/korovine-winter-in-lapland.png");
+}
+
+.img-b {
+    background-image: url("../../../public/img/korovine-winter-1894.png");
+}
+
+.img-c {
+    background-image: url("../../../public/img/korovine-boulevard-parisien.png");
+}
+
+.img-d {
+    background-image: url("../../../public/img/korovine.png");
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+    margin: 0.5rem 0;
+}
+
+.skills-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.skills-container {
+
+    --skills-bg-color: var(--color-c);
+    --skills-bg-color-light: var(--grey-color);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1rem;
+    width: 50%;
+
+    .skills-title {
+        font-size: 1.4rem;
+        font-weight: normal;
+        letter-spacing: 3px;
+        color: var(--darkgrey-color);
+        margin: 0;
+    }
+
+    .skills.skills {
+        width: 98%;
+        height: auto;
+
+        p {
+            z-index: 2;
+            font-size: 0.8rem;
+            color: #fff;
+            padding: 5px 10px;
+            position: relative;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        p:hover span:nth-child(2){
+            background-color: var(--darkgrey-color);
+        }
+
+        div {
+            span:nth-child(1) {
+                z-index: -2;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                margin: auto;
+                background: var(--skills-bg-color-light);
+                height: 100%;
+                width: 100%;
+            }
+
+            span:nth-child(2) {
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: var(--skills-bg-color);
+                height: 100%;
+                width: var(--skills-percent);
+                animation-delay: 0;
+                transition: 0.3s;
+            }
+        }
+    }
+}
+
+.skills {
+    animation: skills 1.25s ease-in-out forwards;
+}
+
+@keyframes skills {
+    0% {
+        left: -500px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}

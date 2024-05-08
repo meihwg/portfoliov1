@@ -60,7 +60,7 @@
 .home-banner{
     display: flex;
     flex-direction: column;
-    background-image: url("../../../public/img/monet-snow.jpg");
+    background-image: url("../../../public/img/claude-monet-the-magpie-winter-scene.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 7%;
