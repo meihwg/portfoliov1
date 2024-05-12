@@ -13,7 +13,7 @@ const ParcoursSection: React.FC = () => {
                             <Icon icon="ph:briefcase"  className="timeline-icon"/>
                         </div>
                         <div className="timeline-body">
-                            <p className="timeline-title"><span className="badge">Branchet Solution</span></p>
+                            <p className="timeline-title"><span className="badge">Branchet Solutions</span></p>
                             <p><b>Mars 2024 à Juillet 2024</b> - Stage développeuse Full-stack <br />
                             Développement et intégration à une application existante d'un processus complet</p>
                             <p className="timeline-subtitle">HTML, CSS, Python, Django, JavaScript, JQuery, PostgreSQL, Docker compose</p>
