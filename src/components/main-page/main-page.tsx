@@ -4,6 +4,8 @@ import SlideNavbar from '../slide-navbar/slide-navbar.tsx';
 import HomeSection from '../home-section/home-section.tsx';
 import AboutSection from '../about-section/about-section.tsx';
 import CompetencesSection from '../competences-section/competences-section.tsx';
+import ProjectSection from '../project-section/project-section.tsx';
+import ParcoursSection from '../parcours-section/parcours-section.tsx';
 
 const MainPage: React.FC = () => {
     return (
@@ -19,10 +21,10 @@ const MainPage: React.FC = () => {
                 <CompetencesSection />
             </section>
             <section id='projets'>
-                <h1>slide 4</h1>
+                <ProjectSection />
             </section>
             <section id='parcours'>
-                <h1>slide 5</h1>
+                <ParcoursSection />
             </section>
         </>
     );
