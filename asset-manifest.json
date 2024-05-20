@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.fde00610.css",
-    "main.js": "/static/js/main.9d078512.js",
+    "main.css": "/static/css/main.98c79d03.css",
+    "main.js": "/static/js/main.7ed0b3b6.js",
     "static/media/claude-monet-the-magpie-winter-scene.jpg": "/static/media/claude-monet-the-magpie-winter-scene.b471ca54bf53e5203151.jpg",
+    "static/media/monet-Argenteuilsouslaneige.png": "/static/media/monet-Argenteuilsouslaneige.853b04597c45ab0ff30f.png",
     "static/media/korovine-boulevard-parisien.png": "/static/media/korovine-boulevard-parisien.a8446c970836591edeec.png",
+    "static/media/monet-snow-scene-at-argenteuil.png": "/static/media/monet-snow-scene-at-argenteuil.abe95470e3a9a5e4f93b.png",
     "static/media/korovine-winter-1894.png": "/static/media/korovine-winter-1894.4b02f47b2bfa7fe05932.png",
     "static/media/korovine-winter-in-lapland.png": "/static/media/korovine-winter-in-lapland.edf2cb6ad9883e55d402.png",
     "static/media/korovine.png": "/static/media/korovine.0e5ba42d0b0e0155e9bd.png",
     "index.html": "/index.html",
-    "main.fde00610.css.map": "/static/css/main.fde00610.css.map",
-    "main.9d078512.js.map": "/static/js/main.9d078512.js.map"
+    "main.98c79d03.css.map": "/static/css/main.98c79d03.css.map",
+    "main.7ed0b3b6.js.map": "/static/js/main.7ed0b3b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.fde00610.css",
-    "static/js/main.9d078512.js"
+    "static/css/main.98c79d03.css",
+    "static/js/main.7ed0b3b6.js"
   ]
 }
