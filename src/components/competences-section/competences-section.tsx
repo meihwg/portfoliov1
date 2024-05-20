@@ -14,8 +14,8 @@ const CompetencesSection: React.FC = () => {
                             cote="l"
                             competences={{ 
                                 "HTML, CSS": 80,
-                                "JavaScript": 70,
-                                "TypeScript, Angular, React": 70,
+                                "JavaScript": 90,
+                                "TypeScript, Angular, React": 80,
                                 "PHP, Symfony": 40,
                                 "Python, Django": 50,
                             }} />
@@ -23,24 +23,44 @@ const CompetencesSection: React.FC = () => {
                             image="b"
                             cote="r"
                             competences={{ 
-                                "Python": 70,
-                                "Java": 50,
+                                "Python": 80,
+                                "Java": 60,
                                 "C": 40,
                                 "C++": 40,
+                                "Flutter": 50,
                             }} />
                 <SkillsCard titre="Bases de données" 
                             image="c"
                             cote="r"
                             competences={{ 
-                                "PostgreSQL, MySQL, SQLite": 70,
+                                "PostgreSQL, MySQL, SQLite": 90,
                                 "MongoDB": 60,
                                 "Neo4j": 50,
                                 "ElasticSearch": 50,
                                 "Oracle": 40,
                             }} />
-                <SkillsCard titre="Langues"
+                <SkillsCard titre="Générales"
                             image="d"
                             cote="l"
+                            competences={{
+                                "Développement Web": 80,
+                                "Développement Mobile": 60,
+                                "Développement Logiciel": 70,
+                                "Base de données": 90,
+                            }} />
+                <SkillsCard titre="Outils"
+                            image="e"
+                            cote="l"
+                            competences={{
+                                "Visual Studio Code, IntelliJ": 90,
+                                "Git": 60,
+                                "Docker": 40,
+                                "Jira, Trello": 50,
+                                "Figma": 80,
+                            }} />
+                <SkillsCard titre="Langues"
+                            image="f"
+                            cote="r"
                             competences={{
                                 "Français - Courant": 100,
                                 "Anglais - C1": 80,

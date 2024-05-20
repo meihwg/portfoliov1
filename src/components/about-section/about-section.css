@@ -7,7 +7,7 @@
 }
 
 .about-title {
-    margin: 2rem 0;
+    margin: 3rem 0 0 0;
     color: var(--darkgrey-color);
 }
 
@@ -48,8 +48,8 @@
 }
 
 .a-propos-img {
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     margin: 1rem 0;
     background-image: url("../../../public/img/claude-monet-the-magpie-winter-scene.jpg");
     background-size: cover;

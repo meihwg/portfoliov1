@@ -62,6 +62,14 @@
     background-image: url("../../../public/img/korovine.png");
 }
 
+.img-e {
+    background-image: url("../../../public/img/monet-Argenteuilsouslaneige.png");
+}
+
+.img-f {
+    background-image: url("../../../public/img/monet-snow-scene-at-argenteuil.png");
+}
+
 .skills-card {
     display: flex;
     flex-direction: row;
@@ -165,13 +173,11 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .skills-card {
         min-width: 90%;
     }
-}
-
-@media (max-width: 650px) {
+    
     .skill-img {
         display: none;
     }
