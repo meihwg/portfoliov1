@@ -1,28 +1,9 @@
-.type--A {
-    --bg-color: var(--color-a);
-}
-
-.type--B {
-    --bg-color: var(--color-b);
-}
-
-.type--C {
-    --bg-color: var(--color-c);
-}
-
-.type--D {
-    --bg-color: var(--color-d);
-}
-
-.type--E {
-    --bg-color: var(--color-e);
-}
-
 #competences-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 80rem;
     margin: 0;
 }
 
@@ -37,4 +18,11 @@
     width: 100%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .comp-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }

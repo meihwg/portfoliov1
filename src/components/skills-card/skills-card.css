@@ -67,10 +67,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-width: 48%;
+    max-width: 48%;
+    min-width: 600px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin: 0;
     padding: 0;
     margin: 0.5rem 0;
     transition: 0.3s;
@@ -162,5 +162,17 @@
     100% {
         left: 0;
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .skills-card {
+        min-width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .skill-img {
+        display: none;
     }
 }

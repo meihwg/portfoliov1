@@ -119,3 +119,10 @@
         }
     }
 }
+
+@media (max-width: 1168px) {
+    
+    .timeline-container {
+        max-width: 90%;
+    }
+}
