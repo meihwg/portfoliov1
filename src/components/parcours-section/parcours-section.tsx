@@ -8,6 +8,16 @@ const ParcoursSection: React.FC = () => {
             <h2 className="parcours-title">Parcours</h2>
             <div className="timeline-container">
                 <div className="timeline">
+                    <div className="timeline-container type--D">
+                        <div className="timeline-icons">
+                            <Icon icon="ph:books-light"  className="timeline-icon"/>
+                        </div>
+                        <div className="timeline-body">
+                            <p className="timeline-title"><span className="badge">IUT2 de Grenoble</span></p>
+                            <p><b>2024</b> - BUT Informatique <br />
+                            parcours Développement d'applications</p>
+                        </div>
+                    </div>
                     <div className="timeline-container type--C">
                         <div className="timeline-icons">
                             <Icon icon="ph:briefcase"  className="timeline-icon"/>
@@ -28,16 +38,6 @@ const ParcoursSection: React.FC = () => {
                             <p><b>Avril 2023 à Juillet 2023</b> - Stage visualisation de données <br />
                             Visualisation de distributions fortement inégales appliquées aux émissions CO2 du Laboratoire</p>
                             <p className="timeline-subtitle">HTML, JavaScript, D3.js</p>
-                        </div>
-                    </div>
-                    <div className="timeline-container type--D">
-                        <div className="timeline-icons">
-                            <Icon icon="ph:books-light"  className="timeline-icon"/>
-                        </div>
-                        <div className="timeline-body">
-                            <p className="timeline-title"><span className="badge">IUT2 de Grenoble</span></p>
-                            <p><b>2024</b> - BUT Informatique <br />
-                            parcours Développement d'applications</p>
                         </div>
                     </div>
                     <div className="timeline-container type--A">

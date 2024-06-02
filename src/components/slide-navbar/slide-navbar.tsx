@@ -36,6 +36,7 @@ const SlideNavbar: React.FC = () => {
                         <div className="navbar-hide" onClick={toggleNavbar}></div> : null
                     }
                     <ul className="menu-hover-fill">
+                        <h3>Laureen Belgrand</h3>
                         <li className="type--A"><a href="#accueil" data-text="Accueil" onClick={toggleNavbar}>Accueil</a></li>
                         <li className="type--B"><a href="#a-propos" data-text="A propos" onClick={toggleNavbar}>A propos</a></li>
                         <li className="type--C"><a href="#competences" data-text="Compétences" onClick={toggleNavbar}>Compétences</a></li>

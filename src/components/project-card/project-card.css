@@ -1,0 +1,168 @@
+:root {
+    --card-img-height: 200px;
+}
+
+.type--A {
+    --accent_color: var(--color-b);
+}
+
+.type--B {
+    --accent_color: var(--color-c);
+}
+
+.type--C {
+    --accent_color: var(--color-d);
+}
+
+.type--D {
+    --accent_color: var(--color-e);
+}
+
+.card {
+    align-self: flex-start;
+    position: relative;
+    width: 425px;
+    min-width: 275px;
+    min-height: 415px;
+    margin: 1.25rem 0.75rem;
+    background: white;
+    transition: all 300ms ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+
+    .card-img {
+        visibility: hidden;
+        width: 100%;
+        height: var(--card-img-height);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .card-img-hovered {
+        --card-img-hovered-overlay: linear-gradient(to bottom,
+                rgba(0, 0, 0, 0),
+                rgba(0, 0, 0, 0));
+        transition: all 350ms ease-in-out;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        position: absolute;
+        height: var(--card-img-height);
+        top: 0;
+        border-radius: 10px;
+    }
+
+    .card-info {
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        transition: all 200ms ease-in-out;
+
+        .card-about {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            transition: all 200ms ease-in-out;
+
+            .card-tag {
+                min-width: 60px;
+                max-width: 100px;
+                padding: 0.2rem 0.5rem;
+                margin-right: 1rem;
+                font-size: 12px;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                background: var(--accent_color);
+                color: #fff;
+
+                &.tag-news {
+                    background: #36b37e;
+                }
+
+                &.tag-deals {
+                    background: #ffab00;
+                }
+
+                &.tag-politics {
+                    width: 71px;
+                    background: #ff5630;
+                }
+            }
+        }
+
+        .card-title {
+            z-index: 10;
+            font-size: 1.5rem;
+            padding-bottom: 0.75rem;
+            transition: all 350ms ease-in-out;
+        }
+
+        .card-creator {
+            padding-bottom: 0.75rem;
+            transition: all 250ms ease-in-out;
+        }
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1),
+            0px 5px 15px rgba(0, 0, 0, 0.07);
+        transform: scale(1.025);
+
+        .card-img-hovered {
+            --card-img-hovered-overlay: linear-gradient(to bottom,
+                    rgba(0, 0, 0, 0),
+                    rgba(0, 0, 0, 0.65));
+            height: 100%;
+        }
+
+        .card-about,
+        .card-creator {
+            opacity: 0;
+        }
+
+        .card-info {
+            background-color: transparent;
+        }
+
+        .card-title {
+            color: #ebecf0;
+            transform: translate(0, 40px);
+        }
+    }
+}
+
+.card-chatjsuispt {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/chatjsuispt.png");
+    }
+}
+.card-blackholebot {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/blackholebot.png");
+    }
+}
+.card-hardis {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/hardis.png");
+    }
+}
+.card-hopack {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/hopack.png");
+    }
+}
+.card-intemporal {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/intemporal.png");
+    }
+}

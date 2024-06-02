@@ -34,8 +34,16 @@
     width: 14rem;
 }
 
+h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: var(--grey-color);
+    margin: 0;
+    padding: 0 0 4rem 0;
+}
+
 ul {
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 1rem;
     margin: 0;
     list-style-type: none;
 }

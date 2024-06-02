@@ -10,3 +10,10 @@
     margin: 2rem 0;
     color: var(--darkgrey-color);
 }
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}

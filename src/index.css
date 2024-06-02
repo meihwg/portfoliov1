@@ -26,6 +26,10 @@ p {
   letter-spacing: 0.5px;
 }
 
+h4 {
+  font-weight: 340;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
