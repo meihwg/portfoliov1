@@ -11,8 +11,7 @@ const CompetencesSection: React.FC = () => {
             <div className="comp-container">
                 <div className="row">
                     <SkillsCard titre="Langages Web"
-                        image="a"
-                        cote="l"
+                        color="B"
                         competences={{
                             "HTML, CSS": 80,
                             "JavaScript": 90,
@@ -21,8 +20,7 @@ const CompetencesSection: React.FC = () => {
                             "Python, Django": 50,
                         }} />
                     <SkillsCard titre="Langages applicatifs"
-                        image="b"
-                        cote="r"
+                        color="D"
                         competences={{
                             "Python": 80,
                             "Java": 60,
@@ -33,8 +31,7 @@ const CompetencesSection: React.FC = () => {
                 </div>
                 <div className="row">
                     <SkillsCard titre="Bases de données"
-                        image="c"
-                        cote="r"
+                        color="A"
                         competences={{
                             "PostgreSQL, MySQL, SQLite": 90,
                             "MongoDB": 60,
@@ -43,8 +40,7 @@ const CompetencesSection: React.FC = () => {
                             "Oracle": 40,
                         }} />
                     <SkillsCard titre="Langues"
-                        image="f"
-                        cote="l"
+                        color="C"
                         competences={{
                             "Français - Courant": 100,
                             "Anglais - C1": 80,

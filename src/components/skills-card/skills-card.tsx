@@ -5,16 +5,12 @@ import "./skills-card.css";
 interface SkillsCardProps {
     titre: string;
     competences: { [key: string]: number };
-    image: string;
-    cote: string;
+    color: string;
 }
 
-const SkillsCard: React.FC<SkillsCardProps> = ({ titre, competences, image, cote }) => {
+const SkillsCard: React.FC<SkillsCardProps> = ({ titre, competences, color }) => {
     return (
-        <div className="skills-card">
-            {cote == "l" && (
-                <div className={"skill-img img-l img-" + image} ></div>
-            )}
+        <div className={"skills-card type--" + color}>
             <div className="skills-container">
                 <h4 className="skills-title">{titre}</h4>
                 <div className="skills">
@@ -27,9 +23,6 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ titre, competences, image, cote
                     })}
                 </div>
             </div>
-            {cote == "r" && (
-                <div className={"skill-img img-r img-" + image} ></div>
-            )}
         </div>
     );
 }

@@ -26,49 +26,25 @@
     --skills-percent: 100%;
 }
 
+.type--A {
+    --accent_color: var(--color-b);
+}
+
+.type--B {
+    --accent_color: var(--color-c);
+}
+
+.type--C {
+    --accent_color: var(--color-d);
+}
+
+.type--D {
+    --accent_color: var(--color-e);
+}
+
 
 .skills {
     animation-name: skills;
-}
-
-.skill-img {
-    width: 50%;
-    height: 100%;
-    min-height: 280px;
-    background-size: cover;
-    background-position: center;
-}
-
-.img-l {
-    border-radius: 10px 0 0 10px;
-}
-
-.img-r {
-    border-radius: 0 10px 10px 0;
-}
-
-.img-a {
-    background-image: url("../../../public/img/korovine-winter-in-lapland.png");
-}
-
-.img-b {
-    background-image: url("../../../public/img/korovine-winter-1894.png");
-}
-
-.img-c {
-    background-image: url("../../../public/img/korovine-boulevard-parisien.png");
-}
-
-.img-d {
-    background-image: url("../../../public/img/korovine.png");
-}
-
-.img-e {
-    background-image: url("../../../public/img/monet-Argenteuilsouslaneige.png");
-}
-
-.img-f {
-    background-image: url("../../../public/img/monet-snow-scene-at-argenteuil.png");
 }
 
 .skills-card {
@@ -76,8 +52,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-width: 48%;
-    min-width: 600px;
+    width: 550px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 0;
@@ -91,7 +66,7 @@
 
 .skills-container {
 
-    --skills-bg-color: var(--color-c);
+    --skills-bg-color: var(--accent_color);
     --skills-bg-color-light: var(--grey-color);
 
     display: flex;
@@ -124,7 +99,7 @@
         }
 
         p:hover span:nth-child(2){
-            background-color: var(--darkgrey-color);
+            background-color: #414a50;
         }
 
         div {
@@ -175,18 +150,8 @@
 }
 
 @media (max-width: 800px) {
-    .skills-card {
+    .skill-card {
         min-width: 90%;
-    }
-    
-    .skill-img {
-        display: none;
-    }
-}
-
-@media (max-width: 1600px) {
-    .row {
-        flex-direction: column;
-        align-items: center;
+        max-width: 90%;
     }
 }
