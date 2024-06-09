@@ -13,6 +13,7 @@ const ProjectSection: React.FC = () => {
                     tags= {["Jeu", "GameJam", "universitaire"]}
                     date="09/2023"
                     color="D"
+                    description="Description du projet Black Hole Bot"
                 />
                 <ProjectCard
                     titre="Intemporal - Site de vente aux enchères de montres"
@@ -20,6 +21,7 @@ const ProjectSection: React.FC = () => {
                     tags= {["Web", "universitaire"]}
                     date="2023"
                     color="B"
+                    description="Description du projet Intemporal"
                 />
                 <ProjectCard
                     titre="Chatjsuispt - Chatbot IA parodique"
@@ -27,6 +29,7 @@ const ProjectSection: React.FC = () => {
                     tags= {["Web", "personnel"]}
                     date="2023"
                     color="B"
+                    description="Description du projet Chatjsuispt"
                 />
                 <ProjectCard
                     titre="Hopack"
@@ -34,6 +37,7 @@ const ProjectSection: React.FC = () => {
                     tags= {["Logiciel", "universitaire"]}
                     date="2022"
                     color="A"
+                    description="Description du projet Hopack"
                 />
                 <ProjectCard
                     titre="Hardis Group - Site internet de présentation d'une ESN"
@@ -41,6 +45,7 @@ const ProjectSection: React.FC = () => {
                     tags= {["Web", "universitaire"]}
                     date="2021"
                     color="B"
+                    description="Description du projet Hardis Group"
                 />
             </div>
         </div>
