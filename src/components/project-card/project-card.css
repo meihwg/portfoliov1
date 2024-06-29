@@ -169,16 +169,21 @@
 
 .project-popup {
     width: 60%;
+    max-height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    overflow: scroll;
     z-index: 2001;
     transition: all 300ms ease-in-out;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     font-size: 1.2rem;
+}
+
+.project-popup .card-title {
+    margin: 1rem;
 }
 
 .popup-close {
@@ -205,11 +210,10 @@
 
 .popup-img {
     width: 100%;
-    height: 300px;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url("../../../public/img/projets/intemporal.png");
     margin: 1rem 0;
 }
 
@@ -221,7 +225,27 @@
 
 .popup-desc {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 2rem 0rem;
 }
 
+.popup-keywords {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
 
+.popup-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.popup-keyword {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-style: italic;
+}

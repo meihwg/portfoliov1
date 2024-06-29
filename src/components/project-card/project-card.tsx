@@ -3,14 +3,15 @@ import "./project-card.css";
 
 interface ProjectCardProps {
     titre: string;
-    image: string;
+    images: string[];
     tags: string[];
     date: string;
     color: string;
     description: string;
+    keywords: string[];
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ titre, image, tags, date, color, description }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ titre, images, tags, date, color, description, keywords }) => {
 
     const [popup, setPopup] = React.useState(false);
 
@@ -20,7 +21,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ titre, image, tags, date, col
 
     return (
         <>
-            <div className={"card type--" + color + " card-" + image} onClick={togglePopup}>
+            <div className={"card type--" + color + " card-" + images[0]} onClick={togglePopup}>
                 <div className="card-img"></div>
                 <a className="card-link">
                     <div className="card-img-hovered"></div>
@@ -41,15 +42,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ titre, image, tags, date, col
             </div>
             {
                 popup ?
-                    <div className="popup-bg" onClick={togglePopup}>
-                        <div className={"project-popup type--" + color + " card-" + image}>
+                    <div className="popup-bg">
+                        <div className={"project-popup type--" + color + " card-" + images[0]}>
                             <div className="popup-header">
                                 <div className="popup-space"></div>
                                 <h4 className="card-title">{titre}</h4>
                                 <div className="popup-close" onClick={togglePopup}>x</div>
                             </div>
                             <div className="popup-body">
-                                    <div className="card-img popup-img"></div>
+                                    <img className="popup-img" src={"/img/projets/"+ images[0] +".png"}/>
                                     <div className="popup-text">
                                         <div className="popup-cont">
                                             <div className="popup-tags">
@@ -63,8 +64,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ titre, image, tags, date, col
                                         </div>
                                         <div className="popup-desc">
                                             <p>
-                                                {description}
+                                                <div dangerouslySetInnerHTML={{ __html: description }} />
                                             </p>
+                                            <div className="popup-images">
+                                                {images.map((image) => {
+                                                    // toutes les images sauf la première
+                                                    if (image !== images[0]) {
+                                                        return (
+                                                            <img className="popup-img" src={"/img/projets/"+ image +".png"}/>
+                                                        );
+                                                    }
+                                                })}
+                                            </div>
+                                            <div className="popup-keywords">
+                                                {keywords.map((keyword) => {
+                                                    return (
+                                                        <a className="popup-keyword">{keyword}</a>
+                                                    );
+                                                })}
+                                            </div>
                                         </div>
                                     </div>
                             </div>
