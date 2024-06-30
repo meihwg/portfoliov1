@@ -9,7 +9,7 @@ const ProjectSection: React.FC = () => {
             <div className="project-cards">
                 <ProjectCard
                     titre="GADI - Gestion Administrative du Département Informatiques"
-                    images={[""]}
+                    images={["gadi", "gadi-2", "gadi-4", "gadi-3"]}
                     tags= {["Web", "universitaire"]}
                     date="09/2023"
                     color="B"

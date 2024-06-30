@@ -153,6 +153,13 @@
     }
 }
 
+.card-gadi {
+    .card-img,
+    .card-img-hovered {
+        background-image: url("../../../public/img/projets/gadi.png");
+    }
+}
+
 .popup-bg {
     position: fixed;
     top: 0;
