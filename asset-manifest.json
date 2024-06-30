@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee30ea22.css",
-    "main.js": "/static/js/main.da58002e.js",
+    "main.css": "/static/css/main.15f8bcb0.css",
+    "main.js": "/static/js/main.db2396a2.js",
     "static/media/claude-monet-the-magpie-winter-scene.jpg": "/static/media/claude-monet-the-magpie-winter-scene.b471ca54bf53e5203151.jpg",
     "static/media/hardis.png": "/static/media/hardis.4254e081f88a92a493fa.png",
     "static/media/intemporal.png": "/static/media/intemporal.6dba3d979768ea8b40c0.png",
@@ -10,11 +10,11 @@
     "static/media/gadi.png": "/static/media/gadi.c826e446d87451757c8e.png",
     "static/media/chatjsuispt.png": "/static/media/chatjsuispt.25d19acdd630906b2222.png",
     "index.html": "/index.html",
-    "main.ee30ea22.css.map": "/static/css/main.ee30ea22.css.map",
-    "main.da58002e.js.map": "/static/js/main.da58002e.js.map"
+    "main.15f8bcb0.css.map": "/static/css/main.15f8bcb0.css.map",
+    "main.db2396a2.js.map": "/static/js/main.db2396a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee30ea22.css",
-    "static/js/main.da58002e.js"
+    "static/css/main.15f8bcb0.css",
+    "static/js/main.db2396a2.js"
   ]
 }
