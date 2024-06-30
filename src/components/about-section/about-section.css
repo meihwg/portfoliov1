@@ -36,6 +36,7 @@
     transition: 0.3s;
     overflow: hidden;
     width: 70%;
+    text-align: justify;
 }
 
 .a-propos-texte h4 {
@@ -59,7 +60,7 @@
 .a-propos-img {
     width: 100%;
     height: 20rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     border-radius: 10px;
     border: 1.5px solid #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

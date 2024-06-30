@@ -233,6 +233,7 @@
 .popup-desc {
     width: 100%;
     padding: 2rem 0rem;
+    text-align: justify;
 }
 
 .popup-keywords {

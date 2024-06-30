@@ -30,7 +30,7 @@ const SlideNavbar: React.FC = () => {
             </button>
             {
                 navbarToggle ?
-                <nav className="navbar" onClick={toggleNavbar}>
+                <nav className="navbar">
                     {
                         screenWidth < 868 ? 
                         <div className="navbar-hide" onClick={toggleNavbar}></div> : null

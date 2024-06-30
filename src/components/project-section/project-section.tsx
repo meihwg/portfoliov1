@@ -11,7 +11,7 @@ const ProjectSection: React.FC = () => {
                     titre="GADI - Gestion Administrative du Département Informatiques"
                     images={["gadi", "gadi-2", "gadi-4", "gadi-3"]}
                     tags= {["Web", "universitaire"]}
-                    date="09/2023"
+                    date="09/2023 - 03/2024"
                     color="B"
                     description="Durant ma troisième année de BUT, j'ai eu l'occasion de travailler sur un projet complet sur l'entièreté de l'année scolaire. Ce projet, réalisé en équipe de 7,
                                 avait pour objectif de réaliser une application web afin de faciliter l'organisation des cours et des ressources à nos professeurs et personnels du

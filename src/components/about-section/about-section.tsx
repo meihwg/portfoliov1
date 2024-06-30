@@ -5,7 +5,7 @@ import "./about-section.css";
 const AboutSection: React.FC = () => {
     return (
         <>
-            <h2 className="about-title"><Icon icon="material-symbols-light:cloud-outline" /> A propos de moi <Icon icon="material-symbols-light:cloud-outline" /></h2>
+            <h2 className="about-title">A propos de moi</h2>
             <div id='about'>
                 <div className="about-left-container">
                     <div className="a-propos-texte">
@@ -27,10 +27,10 @@ const AboutSection: React.FC = () => {
                     <img className="a-propos-img" src="/img/korovine.png" alt="" title="Constantin Korovine - " />
                     <div className="a-propos-texte">
                         <h4>Centres d'intérêts</h4>
-                        <p>En dehors de l'informatique, j'aime créer des choses moi-même, j'aime dessiner, développer des choses et personnaliser mes personnages dans des jeux vidéos. Je joue à 
-                            quelques jeux tels que Genshin Impact, Minecraft ou Animal Crossing. Par ailleurs, j'ai un intérêt particulier pour l'art et son histoire, dans toutes ses 
+                        <p>En dehors de l'informatique, j'aime créer des choses moi-même, j'aime dessiner et développer des choses. Je joue à 
+                            quelques jeux vidéos tels que Genshin Impact ou Minecraft. Par ailleurs, j'ai un intérêt particulier pour l'art et son histoire, dans toutes ses 
                             formes, bien que je sois particulièrement attirée par la peinture et plus précisément le mouvement impressionniste. Vous pouvez d'ailleurs retrouver quelques
-                            tableaux de Monet ou de Korovine, mes deux artistes préférés, sur ce site.
+                            tableaux de Monet ou de Korovine, mes deux artistes préférés, sur cette page.
                         </p>
                     </div>
                 </div>
