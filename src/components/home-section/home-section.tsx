@@ -8,7 +8,7 @@ const HomeSection: React.FC = () => {
         <div className="homesection-container">
             <div className="home-banner">
                 <h1>Laureen Belgrand</h1>
-                <h2>Développeuse Full stack</h2>
+                <h2>Développeuse Full Stack</h2>
             </div>
             <div className="buttons-container">
                 <DesignButton buttonLink='#a-propos' buttonText='A propos' buttonType='A' />
