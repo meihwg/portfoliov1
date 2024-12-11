@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f1bcda5.css",
-    "main.js": "/static/js/main.804c88b5.js",
-    "static/media/claude-monet-the-magpie-winter-scene.jpg": "/static/media/claude-monet-the-magpie-winter-scene.b471ca54bf53e5203151.jpg",
-    "static/media/hardis.png": "/static/media/hardis.4254e081f88a92a493fa.png",
-    "static/media/intemporal.png": "/static/media/intemporal.6dba3d979768ea8b40c0.png",
-    "static/media/blackholebot.png": "/static/media/blackholebot.c5b633ae6c650076203c.png",
-    "static/media/hopack.png": "/static/media/hopack.cfb111fb48a5f6ada5bb.png",
-    "static/media/gadi.png": "/static/media/gadi.c826e446d87451757c8e.png",
-    "static/media/chatjsuispt.png": "/static/media/chatjsuispt.25d19acdd630906b2222.png",
-    "index.html": "/index.html",
-    "main.2f1bcda5.css.map": "/static/css/main.2f1bcda5.css.map",
-    "main.804c88b5.js.map": "/static/js/main.804c88b5.js.map"
+    "main.css": "/portfoliov1/static/css/main.6821f54b.css",
+    "main.js": "/portfoliov1/static/js/main.804c88b5.js",
+    "static/media/claude-monet-the-magpie-winter-scene.jpg": "/portfoliov1/static/media/claude-monet-the-magpie-winter-scene.b471ca54bf53e5203151.jpg",
+    "static/media/hardis.png": "/portfoliov1/static/media/hardis.4254e081f88a92a493fa.png",
+    "static/media/intemporal.png": "/portfoliov1/static/media/intemporal.6dba3d979768ea8b40c0.png",
+    "static/media/blackholebot.png": "/portfoliov1/static/media/blackholebot.c5b633ae6c650076203c.png",
+    "static/media/hopack.png": "/portfoliov1/static/media/hopack.cfb111fb48a5f6ada5bb.png",
+    "static/media/gadi.png": "/portfoliov1/static/media/gadi.c826e446d87451757c8e.png",
+    "static/media/chatjsuispt.png": "/portfoliov1/static/media/chatjsuispt.25d19acdd630906b2222.png",
+    "index.html": "/portfoliov1/index.html",
+    "main.6821f54b.css.map": "/portfoliov1/static/css/main.6821f54b.css.map",
+    "main.804c88b5.js.map": "/portfoliov1/static/js/main.804c88b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f1bcda5.css",
+    "static/css/main.6821f54b.css",
     "static/js/main.804c88b5.js"
   ]
 }
